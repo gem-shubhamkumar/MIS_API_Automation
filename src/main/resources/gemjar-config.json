@@ -1,0 +1,28 @@
+{
+  "environment": "beta",
+  "projectName": "MIS_API",
+  "reportName": "MIS_API_Report",
+  "gemjarUserName": "tchauhan",
+  "gemjarToken": "3548cf51-4f28-4949-a8db-bdbb2f3027091673956073987",
+  "gemjarSubID": "test_id",
+  "glueCode": "com.qa.gemini.stepDefinition",
+  "jewelEntryUrl": "https://apis.gemecosystem.com/enter-point",
+  "reportLocation": "/tmp",
+  "emailReport": "N",
+  "emailTO": "tushar.chauhan@geminisolutions.com",
+  "beta": {
+    "postApi": "https://mymisapi.geminisolutions.com/api/Authenticate/Authenticate",
+    "postFetchProject": "https://mymisapi.geminisolutions.com/api/TimeSheet/FetchProjectsAssignedToUser",
+    "postUserDetails": "https://mymisapi.geminisolutions.com/api/Common/GetUserDetailsByUserId",
+    "postEligibleUser": "https://mymisapi.geminisolutions.com/api/TimeSheet/ListEligibleUsersForTimesheeet",
+    "getFetchEmp": "https://mymisapi.geminisolutions.com/api/User/FetchDataForEmployeeDirectory",
+    "postFetchWeek": "https://mymisapi.geminisolutions.com/api/TimeSheet/FetchWeekInfo",
+    "postFetchTimesheet": "https://mymisapi.geminisolutions.com/api/TimeSheet/FetchTimeSheetInfo",
+    "postTimesheetProject": "https://mymisapi.geminisolutions.com/api/TimeSheet/FetchProjectsForTimeSheet",
+    "postTaskLogged": "https://mymisapi.geminisolutions.com/api/TimeSheet/FetchTasksLoggedForTimeSheet",
+    "postFetchTemplate": "https://mymisapi.geminisolutions.com/api/TimeSheet/FetchTemplatesForUser",
+    "postFetchTask": "https://mymisapi.geminisolutions.com/api/Common/FetchTaskTeams",
+    "postFetchTaskType": "https://mymisapi.geminisolutions.com/api/Common/FetchTaskTypes",
+    "postSaveTaskTemp": "https://mymisapi.geminisolutions.com/api/TimeSheet/SaveTaskTemplate"
+  }
+}
